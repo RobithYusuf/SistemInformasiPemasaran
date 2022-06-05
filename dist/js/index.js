@@ -15,7 +15,6 @@ $('#sliders-background').click(function(){
     $('#sliders-background').removeClass('active');
 });
 
-
 // this for char one type bar
 var ctx = document.getElementById('myChartOne').getContext('2d');
 var myChart = new Chart(ctx, {
@@ -23,7 +22,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Diagram Batang Transaksi Perminggu',
             data: [12, 19, 3, 5, 2, 3],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -60,7 +59,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'],
         datasets: [{
-            label: 'Grafik Penjualan Perminggu',
+            label: 'Diagram Garis Transaksi Perminggu',
             data: [12, 19, 3, 5, 2, 3],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',

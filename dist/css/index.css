@@ -6,8 +6,19 @@
   z-index: 5;
   padding-top: 0.1rem !important;
 }
+/* .row {
+  position: relative;
+  top: 50px;
+  margin-left: 260px;
+  height: auto;
+  padding: 14px 8px 14px 8px;
+  background-color: rgb(230, 230, 230);
+  transition: all 0.3s;
+  z-index: 1;
+} */
 .navbar .navbar-brand {
   font-family: "Pacifico", cursive;
+  margin-left: 20px;
 }
 .navbar .nav-item .dropdown-menu {
   width: 300px;
@@ -54,9 +65,9 @@
   height: 100vh;
   position: fixed;
   top: 50px;
-  background: #6535eb; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #731db9, #7753f9); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4c1db9, #7f53f9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #1f1e24; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #27222b, #322d42); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3c3944, #3d3949); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   transition: all 0.3s;
   z-index: 9;
 }

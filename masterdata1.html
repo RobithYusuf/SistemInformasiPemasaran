@@ -56,38 +56,87 @@
 
 
     <!-- navbar awal -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <!-- <a class="navbar-brand me-auto text-danger" href="index.html">Kedai<span class="text-warning">Kopi</span></a> -->
-        <a class="navbar-brand" href="index.html">Kedai Kopi</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end table-responsive" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Tagihan Biaya</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Supplier</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Bahan Baku</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Dropdown link
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-md navbar-dark bg-light py-1">
+            <div class="container-fluid">
+                <button class="btn btn-default" id="btn-slider" type="button">
+                    <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                </button>
+                <a class="navbar-brand me-auto text-danger" href="#">Dash<span class="text-warning">board</span></a>
+                <ul class="nav ms-auto">
+                    <li class="nav-item dropstart">
+                        <a class="nav-link text-dark ps-3" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            <i class="fa fa-bell fa-lg py-2" aria-hidden="true"></i>
+                            <span class="badge bg-danger">3</span>
+                        </a>
+                        <div class="dropdown-menu mt-2 pt-0" aria-labelledby="navbarDropdown">
+                            <div class="d-flex p-3 border-bottom align-items-cente mb-2">
+                                <i class="fa fa-bell me-3" aria-hidden="true"></i>
+                                <span class="fw-bold lh-1">Notifikasi</span>
+                            </div>
+                            <a class="dropdown-item py-2" href="#">
+                                <div class="d-flex overflow-hidden">
+                                    <i class="fa fa-envelope fa-lg dropdown-icons bg-primary text-white p-2 me-2"
+                                        aria-hidden="true"></i>
+                                    <div class="d-block content">
+                                        <p class="lh-1 mb-0">Login</p>
+                                        <span class="content-text">Selamat datang di website menu dashboard untuk
+                                            pengelolaan
+                                            sistem informasi pemasaran Kedai Kopi (INFO KOPI).</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item py-2" href="#">
+                                <div class="d-flex overflow-hidden">
+                                    <i class="fa fa-file fa-lg dropdown-icons bg-warning text-white p-2 me-2"
+                                        aria-hidden="true"></i>
+                                    <div class="d-block content">
+                                        <p class="lh-1 mb-0">file informations</p>
+                                        <span class="content-text">your file has exceeded the limit.</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item py-2" href="#">
+                                <div class="d-flex overflow-hidden">
+                                    <i class="fa fa-hdd-o fa-lg dropdown-icons bg-danger text-white p-2 me-2"
+                                        aria-hidden="true"></i>
+                                    <div class="d-block content">
+                                        <p class="lh-1 mb-0">Storage</p>
+                                        <span class="content-text">Your storage is full, delete some files.</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropstart">
+                        <a class="nav-link text-dark ps-3 pe-1" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            <img src="./images/user/user.png" alt="user" class="img-user">
+                        </a>
+                        <div class="dropdown-menu mt-2 pt-0" aria-labelledby="navbarDropdown">
+                            <div class="d-flex p-3 border-bottom mb-2">
+                                <img src="./images/user/user.png" alt="user" class="img-user me-2">
+                                <div class="d-block">
+                                    <p class="fw-bold m-0 lh-1">Robith Yusuf</p>
+                                    <small>robithyusufalfahsa@gmail.com</small>
+                                </div>
+                            </div>
+                            <a class="dropdown-item" href="#">
+                                <i class="fa fa-user fa-lg me-3" aria-hidden="true"></i>Profile
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fa fa-cog fa-lg me-3" aria-hidden="true"></i>Setting
+                            </a>
+                            <hr class="dropdown-divider">
+                            <a class="dropdown-item" href="#">
+                                <i class="fa fa-sign-out fa-lg me-2" aria-hidden="true"></i>LogOut
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     <!-- navbar akhir -->
 
     <!-- table awal -->
